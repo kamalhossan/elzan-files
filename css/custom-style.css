@@ -1,0 +1,678 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.row.heading-title.hentry{
+	display: none;
+}
+/* property gallery css start here */
+.gallery-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.main-image {
+	width: 96.5%;
+	margin-bottom: 50px;
+}
+
+.main-image img {
+	width: 100% !important;
+	height: 464px !important;
+	border-radius: 10px !important;
+	object-fit: cover;
+}
+
+.thumbnail-container {
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* gap: 10px;
+	width: 100%;
+	padding: 0px 2%; */
+
+
+	display: flex;
+	overflow-x: auto;
+	gap: 10px;
+	padding: 10px;
+	/* width: 500px; */
+	cursor: grab;
+
+	width: 100%;
+	justify-content: space-between;
+}
+
+
+.thumbnail-container {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.thumbnail {
+	width: 151px;
+	height: 181px !important;
+	object-fit: cover;
+	/* cursor: pointer; */
+	border-radius: 5px;
+	transition: transform 0.2s, opacity 0.2s;
+}
+
+.thumbnail:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+/* .thumbnail.active {
+border: 2px solid #0078ff;
+} */
+
+/* property gallery css ends here */
+
+/* Property Pricing card css start here */
+
+.property-card {
+	width: 100%;
+	padding: 20px 25px;
+	border-radius: 10px;
+	font-family: "Theinhardt Pan";
+	font-size:14px;
+	background-color: #FBFBFB;
+	color: #051b33;
+	box-shadow: 1px 1px 4px 0px #00000026;
+}
+.property-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.property-title {
+	font-size: 18px !important;
+	margin: 0;
+	color: #051b33;
+	line-height: 24px !important;
+	font-weight: 500;
+}
+.property-location {
+	font-size: 14px;
+	color: #051b33;
+}
+.property-price p {
+	font-size: 14px;
+	color: #051b33;
+	padding: 0px;
+}
+.property-price h3 {
+	margin: 0 !important;
+	font-size: 18px;
+	color: #051b33;
+	line-height: 18px;
+	font-family: "Theinhardt Pan";
+	font-weight: 500;
+}
+.property-status p {
+	padding: 0;
+	font-size: 12px;
+	line-height: 12px;
+}
+.property-status {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.reference-number {
+	font-weight: bold;
+}
+.status-badge {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	color: #051b33;
+	background: rgb(255 255 255 / 90%);
+	padding: 8px 15px;
+	border-radius: 30px;
+	border: 0.5px solid #DBD4D4;
+	line-height: 16px;
+}
+.status-dot {
+	width: 8px;
+	height: 8px;
+	background-color: #EA8B63;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+.property-description {
+	line-height: 24px;
+}
+.property-actions {
+	text-align: center;
+}
+.callback-button {
+	padding: 16px 10px;
+	color: #fff;
+	background-color: #59C2FF;
+	cursor: pointer;
+	width: 100%;
+	border: 1px solid transparent;
+	font-size: 15px;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+.callback-button:hover {
+	background-color: #0056cc;
+}
+body[data-button-style^="rounded"] button.callback-button {
+	border-radius: 10px !important;
+}
+.sales-team {
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	position: relative;
+	border: 0.5px solid #051B33;
+	padding: 12px;
+}
+.sales-image {
+	width: 60px !important;
+	height: 60px !important;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;
+	margin-bottom: 0 !important;
+}
+.sales-info {
+	flex: 1;
+}
+h4.sales-name {
+    font-size: 14px !important;
+    line-height: 25px !important;
+}
+.sales-role {
+	background-color: #051b33;
+	color: #fff;
+	padding: 2px 12px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	font-size: 12px;
+	font-family: "Bw Gradual";
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+}
+.sales-contact,
+.sales-email {
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/* Property Pricing card css ends  here */
+
+/* property description start here */
+
+.des_heading {
+	/* font-family: Theinhardt Pan; */
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 23.1px;
+	color: #051b33;
+}
+
+.des_detail {
+	/* font-family: Theinhardt Pan; */
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23.1px;
+	color: #051b33;
+	/* width: 54%; */
+}
+
+/* property description ends here */
+
+/* property brochure start here */
+
+.property-details {
+	/* width: 400px; */
+	padding: 0px 16% 0px 0px;
+	color: #051b33;
+}
+
+.property-details span,
+.property-details strong,
+.property-details button {
+	color: #051b33;
+}
+
+.download-section {
+	/* border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding-bottom: 10px; */
+}
+
+.download-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	border-top: 1px solid #051B33;
+	padding-top: 10px;
+}
+
+.download-item:nth-child(1) {
+	border-top: 1px solid transparent !important;
+}
+
+.download-item span {
+	font-size: 14px;
+	/* color: #333; */
+}
+
+.download-btn {
+	padding: 10px 30px !important;
+}
+
+.property-info {
+	margin-top: 20px;
+}
+
+.info-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 0px;
+	font-size: 14px;
+	border-top: 1px solid #051B33;
+}
+.info-item strong {
+	font-size: 14px;
+}
+.download-btn {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	background: transparent;
+	color: #000;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.download-btn:hover {
+	background: #000;
+	color: #fff;
+}
+
+/* property brochure ends here */
+
+/* property avlibility start here */
+
+.property-overview {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+	/* margin-left:-7px; */
+}
+
+.property-image {
+	position: relative;
+	width: 46%;
+}
+
+.property-image img {
+	width: 100%;
+	/* border-radius: 8px; */
+}
+
+.image-overlay {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.image-overlay h2 {
+	font-size: 18px;
+	margin: 0;
+}
+
+.image-overlay p {
+	margin: 5px 0 0;
+	font-size: 14px;
+}
+
+.property-table {
+	width: 46%;
+	margin-right:6%;
+}
+
+@media  screen and (max-width:768px) {
+	.property-table {
+		display: none;
+	}
+
+	.property-details {
+		padding: 10px;
+		width: 100%;
+	}
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+table thead {
+	background: transparent;
+	border-top: 1px solid transparent;
+}
+
+table th {
+	text-align: left;
+	padding: 12px 10px;
+	font-size: 13px;
+	color: #051b33;
+	font-weight: 400 !important;
+	border-bottom: 1px solid transparent;
+}
+
+thead tr th {
+	border-bottom: 1px solid transparent !important;
+}
+
+th,
+td {
+	border-left: none !important;
+	border-right: none !important;
+}
+
+table td {
+	padding: 10px 10px 30px 10px !important;
+	font-size: 13px;
+	color: #051b33;
+	border-bottom: 1px solid #051b33 !important;
+	text-align: left !important;
+	font-weight:700 !important;
+}
+
+table td:last-child {
+	text-align: right;
+}
+
+table tbody tr:last-child td {
+	border-bottom: none;
+}
+
+/* table tbody tr:hover {
+background: #f5f5f5;
+} */
+
+table tr:nth-child(2n + 1) {
+	background-color: transparent !important;
+}
+.sold {
+	color: #e57373;
+	font-weight: bold;
+}
+.floor-btn {
+	padding: 8px 16px;
+	border: 1px solid #051b33;
+	background-color: transparent;
+	color: #051b33;
+	border-radius: 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.floor-btn:hover {
+	background-color: #000;
+	color: #fff;
+}
+.property-image img{
+	width:100% !important;
+}
+/* property avlibility ENDS here */
+@media screen and (max-width:1000px) {
+	.container.main-content{
+		max-width: 100%;
+	}
+	.thumbnail{
+		width: 19% !important;
+		height: 60px !important;
+	}
+	.property-overview{
+		flex-wrap: wrap;
+	}
+
+	.property-image{
+		width: 100%;
+		padding: 10px;
+	}
+
+	.property_description{
+		padding:10px;
+	}
+
+	.property_features{
+		padding:10px;
+	}
+}
+/* accordian code start here */
+
+/* Hide accordion for larger screens */
+@media (min-width: 768px) {
+	.accordion-container {
+		display: none;
+	}
+}
+/* Style for the accordion */
+.accordion {
+	/* border: 1px solid #ddd; */
+	border-radius: 5px;
+	max-width: 400px;
+	margin: 10px auto;
+}
+
+.accordion-item {
+	border-bottom: 1px solid #ddd;
+}
+.accordion-header {
+	width: 100%;
+	background: transparent !important;
+	border: none;
+	text-align: left;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	color: #14120F;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 20.4px;
+
+}
+/* .accordion-header:hover {
+background-color: #e0e0e0;
+} */
+
+.accordion-content {
+	display: none;
+	/* padding: 10px 15px; */
+	background-color: #fff;
+	font-size: 14px;
+}
+/* accordian code ends here */
+@media screen and (max-width:1000px){
+	.invisible_on_phone{
+		display: none;
+	}
+	li sup{
+		display: none;
+	}
+}
+/* Hide the availability section by default */
+.availability-section {
+	display: block; /* Set to 'block' initially */
+}
+/* Hide the availability section for larger screens */
+@media (min-width: 768px) {
+	.availability-container {
+		display: none;
+	}
+}
+
+
+
+
+/* Availability Section Styles */
+.availability-container {
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+}
+
+.availability-section h3 {
+	background-color: #00274d;
+	color: #fff;
+	padding: 10px;
+	margin: 0 0 10px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.availability-section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.availability-section li {
+	margin: 5px 0;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+}
+.availability-section li a {
+	color: #007bff;
+	text-decoration: none;
+}
+.availability-section li a:hover {
+	text-decoration: underline;
+}
+.toggle-btn {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border-radius: 5px !important;
+	border: 1px solid #59C2FF !important;
+	color: #59C2FF !important;
+}
+body[data-button-style^="rounded"] button.toggle-btn {
+	border-radius: 5px !important;
+}
+.availability-section {
+	overflow: hidden;
+}
+.filter_button{
+	white-space: nowrap;
+}
+@media(max-width:768px){
+	.property-price h3 {
+		font-size: 12px;
+		color: #131212;
+		line-height: 16px;
+	}
+	.property-price p,
+	.property-location {
+		font-size: 12px;
+		color: #929292;
+		letter-spacing: -0.01em;
+		line-height: 16px;
+	}
+	.property-card {
+		padding: 15px 0;
+		background-color: transparent;
+		box-shadow: none;
+	}
+	.small_img img {
+		height: 70px !important;
+	}
+	.small_img img, 
+	.large_img img{
+		border-radius: 6px;
+	}
+	.status-badge {
+		background: #EA8B6333;
+		border-color:transparent
+	}
+	.property-status {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.callback-button {
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 20.83px;
+		letter-spacing: -0.03em;
+	}
+	h4.sales-name {
+		margin-bottom: 0 !important;
+	}
+	.slide_open {
+		display: none;		
+        padding-bottom: 20px !important;
+        border-bottom: 1px solid #4E4E4E;
+        margin-bottom: 20px !important;
+	}
+	.toggle_heading h4 {
+		font-size: 17px !important;
+		letter-spacing: 0.07em;
+		font-weight: 700 !important;
+	}
+	.toggle_heading.active {
+		border-color: transparent;
+		margin-bottom: 0;
+	}
+	.slide_open>*{
+        padding-right: 0;
+	}
+	.toggle_heading:after {
+		content: '';
+		background-image: url(/wp-content/uploads/2024/12/Vector.png);
+		width: 18px;
+		height: 10px;
+		position: absolute;
+		background-repeat: no-repeat;
+		right: 0;
+		top: 6px;
+	}
+	.toggle_heading {
+		padding-bottom: 15px;
+		border-bottom: 1px solid #4E4E4E;
+		margin-bottom: 15px;
+		position: relative;
+	}
+	.full_row,
+	.custom_row+.custom_row {
+    	margin-top: 20px;
+	}
+}

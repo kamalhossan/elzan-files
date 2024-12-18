@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanBlack-Italic.eot');
+    src: url('TheinhardtPanBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanBlack-Italic.woff2') format('woff2'),
+        url('TheinhardtPanBlack-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanBlack-Regular.eot');
+    src: url('TheinhardtPanBlack-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanBlack-Regular.woff2') format('woff2'),
+        url('TheinhardtPanBlack-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPan-BoldItalic.eot');
+    src: url('TheinhardtPan-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPan-BoldItalic.woff2') format('woff2'),
+        url('TheinhardtPan-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan Hairline';
+    src: url('TheinhardtPanHairline-Regular.eot');
+    src: url('TheinhardtPanHairline-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanHairline-Regular.woff2') format('woff2'),
+        url('TheinhardtPanHairline-Regular.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanHeavy-Regular.eot');
+    src: url('TheinhardtPanHeavy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanHeavy-Regular.woff2') format('woff2'),
+        url('TheinhardtPanHeavy-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPan-Bold.eot');
+    src: url('TheinhardtPan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPan-Bold.woff2') format('woff2'),
+        url('TheinhardtPan-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanHeavy-Italic.eot');
+    src: url('TheinhardtPanHeavy-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanHeavy-Italic.woff2') format('woff2'),
+        url('TheinhardtPanHeavy-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan Hairline';
+    src: url('TheinhardtPanHairline-Italic.eot');
+    src: url('TheinhardtPanHairline-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanHairline-Italic.woff2') format('woff2'),
+        url('TheinhardtPanHairline-Italic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanLight-Italic.eot');
+    src: url('TheinhardtPanLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanLight-Italic.woff2') format('woff2'),
+        url('TheinhardtPanLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPan-Regular.eot');
+    src: url('TheinhardtPan-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPan-Regular.woff2') format('woff2'),
+        url('TheinhardtPan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanMedium-Regular.eot');
+    src: url('TheinhardtPanMedium-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanMedium-Regular.woff2') format('woff2'),
+        url('TheinhardtPanMedium-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanThin-Italic.eot');
+    src: url('TheinhardtPanThin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanThin-Italic.woff2') format('woff2'),
+        url('TheinhardtPanThin-Italic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanMedium-Italic.eot');
+    src: url('TheinhardtPanMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanMedium-Italic.woff2') format('woff2'),
+        url('TheinhardtPanMedium-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanLight-Regular.eot');
+    src: url('TheinhardtPanLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanLight-Regular.woff2') format('woff2'),
+        url('TheinhardtPanLight-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPan-Italic.eot');
+    src: url('TheinhardtPan-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPan-Italic.woff2') format('woff2'),
+        url('TheinhardtPan-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanUltraLight-Regular.eot');
+    src: url('TheinhardtPanUltraLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanUltraLight-Regular.woff2') format('woff2'),
+        url('TheinhardtPanUltraLight-Regular.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanThin-Regular.eot');
+    src: url('TheinhardtPanThin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanThin-Regular.woff2') format('woff2'),
+        url('TheinhardtPanThin-Regular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Theinhardt Pan';
+    src: url('TheinhardtPanUltraLight-Italic.eot');
+    src: url('TheinhardtPanUltraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TheinhardtPanUltraLight-Italic.woff2') format('woff2'),
+        url('TheinhardtPanUltraLight-Italic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
